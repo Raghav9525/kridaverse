@@ -7,6 +7,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Allow backend directory (excluding node_modules)
+!backend/
+backend/node_modules/
+
 node_modules
 dist
 dist-ssr
