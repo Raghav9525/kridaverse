@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        img {
+            width: fit-content;
+            float: right;
+            display: flex;
+            mix-blend-mode: multiply;
+            /* Blend mode applied */
+        }
+
+        .card-overlay {
+            border-radius: 30px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            background: rgba(255, 255, 255, 0.5);
+            /* Semi-transparent white to lighten the background image underneath */
+        }
+
+        img.doremon {
+            width: fit-content;
+            float: right;
+            display: flex;
+            mix-blend-mode: multiply;
+            /* Existing style for blending */
+            filter: brightness(110%) contrast(120%);
+            /* New style to try and mask out shadows */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-2">
+        <div class="card p-2"
+            style="background-image: url('./src/img/ikhlas-rahman-MzfOPW5Tb3M-unsplash.jpg'); background-size: cover; background-repeat: no-repeat;">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-6 mt-4">
+                    <div class="card p-3 card-overlay">
+                        <h4 class="mt-4 p-2"> <b>About Me</b> </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur nesciunt eius esse
+                            voluptate omnis iste quos quam nulla officiis sed. Velit enim laborum, in harum libero,
+                            deserunt perspiciatis dolore consectetur fugit voluptatum quasi! Facilis deserunt cum, quam,
+                            quaerat cumque et numquam doloremque consequatur dolores maxime omnis labore ab saepe illo.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsa quibusdam aspernatur
+                            consequuntur ducimus sint, non nihil in dolorum laborum?</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <img src="./src/img/doremon.jpg" alt="Doremon" class="doremon">
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+
+            
+        </div>
+
+        <div class="container mt-2 mb-4">
+            <div class="card"
+                style="border-top-left-radius: 50px; border-top-right-radius: 50px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                <P class="text-center">Greeting !</P>
+                <h4 class="text-center">Welcome to the website</h4>
+                <div>
+                    <p class="text-center p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aliquam
+                        commodi vel fugit et maiores, vitae obcaecati impedit corrupti, aut enim consequuntur
+                        perferendis, ducimus sint inventore rerum eveniet placeat? Hic dolores doloribus numquam ducimus
+                        nisi asperiores exercitationem vero, harum velit unde voluptatum quo, ex nihil soluta veritatis
+                        alias deleniti enim! Libero officia debitis quas commodi incidunt quis iste eveniet alias ad sit
+                        perspiciatis omnis numquam nobis nulla, eaque ex provident eius similique praesentium hic sunt
+                        voluptas rerum, quasi possimus. <br> Laborum corporis non libero similique hic quisquam.
+                        Reiciendis delectus soluta deleniti consectetur velit? Saepe hic,
+                        sequi velit consequatur corporis accusamus impedit? Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Quasi dolorem vitae sint eos veritatis reiciendis quisquam ex quos tempora, ab
+                        tempore consequatur aliquam nobis dolor quibusdam. Nam sequi doloribus sapiente fuga voluptatem
+                        aut quas deleniti, dolorem minus omnis iusto veniam fugiat excepturi ad? Inventore magni
+                        obcaecati, cum iure aliquid quod. Totam rem magni minus corrupti atque voluptas amet maiores,
+                        odio dolores! Commodi magnam modi rerum corporis ipsam vitae, quo quia nihil quae praesentium
+                        molestiae reiciendis debitis illo quod iusto dolor culpa vel nesciunt maiores. Dicta nisi
+                        quisquam ullam repellat libero ipsa sit, autem, ad, odio iure quaerat vel debitis eveniet!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
